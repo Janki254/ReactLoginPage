@@ -45,6 +45,7 @@ const LoginForm: React.FC<PropType> = ({onUserLogin}) => {
                 <div>
                     <InputLabel htmlFor='username'>Username</InputLabel>
                     <InputField
+                        type='text'
                         id='username'
                         placeholder='Enter Login ID'
                         onChange={handleUsername}
@@ -53,6 +54,7 @@ const LoginForm: React.FC<PropType> = ({onUserLogin}) => {
                 <div>
                     <InputLabel htmlFor='password'>Password</InputLabel>
                     <InputField
+                        type='password'
                         id='password'
                         placeholder='Enter Password'
                         onChange={handleUserPassword}
